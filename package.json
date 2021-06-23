@@ -1,0 +1,17 @@
+{
+  "name": "rollup-plugin-node-resolve-issue",
+  "version": "1.0.0",
+  "private": true,
+  "main": "output.js",
+  "scripts": {
+    "build": "cp -R persistent_node_modules/@abcdef node_modules && rollup -c rollup.config.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.14.6",
+    "@babel/preset-typescript": "7.14.5",
+    "@rollup/plugin-babel": "5.3.0",
+    "@rollup/plugin-node-resolve": "13.0.0",
+    "rollup": "2.52.2"
+  }
+}
